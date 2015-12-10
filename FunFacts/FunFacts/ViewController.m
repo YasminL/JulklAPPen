@@ -20,16 +20,17 @@
     
     self.factBook = [[FactBook alloc] init];
     
-    self.funFactsLabel.text = [self.factBook.facts objectAtIndex: 0];
+    self.funFactsLabel.text = [self.factBook randomFact];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 - (IBAction)showFunFact {
     
-    self.funFactsLabel.text = [self.factBook.facts objectAtIndex:1];
+    self.funFactsLabel.text = [self.factBook randomFact];
 }
 
 @end

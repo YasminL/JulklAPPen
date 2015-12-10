@@ -16,11 +16,16 @@
     if (self) {
         _facts = [[NSArray alloc] initWithObjects:
                       @"Mia gillar katter och så heter hon katt på mandarin - Miao!"
-                      ,@"Äta"
-                      , @"Jobba"
+                      ,@"Mia tänker gå all-in i år och köpa julgran, laga knäck och pepparkakor, drick julmust - you name it!"
+                      , @"Kommer inte på någon mer funFact om Mia.. men det kommer nog snart"
                       , nil];
     }
     return self;
+}
+
+- (NSString *)randomFact {
+    int random = arc4random_uniform((int)self.facts.count);
+    return [self.facts objectAtIndex:random];
 }
 
 @end
