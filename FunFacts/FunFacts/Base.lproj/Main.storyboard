@@ -18,25 +18,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBh-ml-AZZ">
-                                <rect key="frame" x="70" y="269" width="180" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A funny fun fact here" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSF-2b-Wbj">
+                                <rect key="frame" x="44" y="200" width="233" height="23"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Did you know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wwd-pS-8Za">
+                                <rect key="frame" x="52" y="60" width="116" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="qGc-1h-5q6"/>
+                                    <constraint firstAttribute="height" constant="22" id="rxe-83-Xrn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBh-ml-AZZ">
+                                <rect key="frame" x="48" y="452" width="225" height="61"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="7zB-ah-HWq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
+                                <color key="tintColor" red="0.35294117650000001" green="0.86818976150000005" blue="0.86190206960000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Show Another Fun Fact"/>
                                 <connections>
                                     <action selector="showFunFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="8RE-E4-cNo"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="A funny fun fact here" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSF-2b-Wbj">
-                                <rect key="frame" x="48" y="207" width="225" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.35294117647058731" green="0.86818976151315785" blue="0.86190206962719274" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="HSF-2b-Wbj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="egp-wC-m6F"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="HSF-2b-Wbj" secondAttribute="trailing" constant="27" id="hzH-JV-UMs"/>
-                            <constraint firstItem="HSF-2b-Wbj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wHe-6R-LRz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HSF-2b-Wbj" secondAttribute="trailing" constant="23" id="0bK-lQ-RQt"/>
+                            <constraint firstItem="HSF-2b-Wbj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="4Fg-mj-P5y"/>
+                            <constraint firstItem="dBh-ml-AZZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="4at-rD-uY5"/>
+                            <constraint firstItem="HSF-2b-Wbj" firstAttribute="top" secondItem="Wwd-pS-8Za" secondAttribute="bottom" constant="118" id="6T5-Nt-eKQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dBh-ml-AZZ" secondAttribute="trailing" constant="27" id="NsY-Dn-nGZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dBh-ml-AZZ" secondAttribute="bottom" constant="55" id="aaN-d7-O1L"/>
+                            <constraint firstItem="Wwd-pS-8Za" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="32" id="ato-me-SkJ"/>
+                            <constraint firstItem="Wwd-pS-8Za" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="yFn-oS-anp"/>
                         </constraints>
                     </view>
                     <connections>
