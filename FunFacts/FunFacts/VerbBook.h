@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface FactBook : NSObject
+@interface VerbBook : NSObject
 
-@property (strong, nonatomic) NSArray *facts;
+@property (strong, nonatomic) NSArray *verbs;
 
-- (NSString *)randomFact;
+- (NSString *)randomVerb;
 
 @end

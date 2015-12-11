@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "FactBook.h"
+#import "VerbBook.h"
 #import "ColorWheel.h"
+#import "AdjectiveBook.h"
 
 @interface ViewController ()
 
@@ -19,10 +20,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.factBook = [[FactBook alloc] init];
+    self.verbBook = [[VerbBook alloc] init];
     self.colorWheel = [[ColorWheel alloc] init];
-    
-    self.funFactsLabel.text = [self.factBook randomFact];
+    self.adjectiveBook = [[AdjectiveBook alloc] init];
+
+    self.verbLabel.text = [self.verbBook randomVerb];
+    self.adjectiveLabel.text = [self.adjectiveBook randomAdjective];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -30,11 +34,12 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)showFunFact {
+- (IBAction)showRandomVerbAndAdjective {
     UIColor *randomColor = [self.colorWheel randomColor];
     self.view.backgroundColor = randomColor;
     self.funFactsButton.tintColor = randomColor;
-    self.funFactsLabel.text = [self.factBook randomFact];
+    self.verbLabel.text = [self.verbBook randomVerb];
+    self.adjectiveLabel.text = [self.adjectiveBook randomAdjective];
 }
 
 @end

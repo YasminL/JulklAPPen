@@ -8,15 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@class FactBook;
+@class VerbBook;
 @class ColorWheel;
+@class VerbBook;
+@class AdjectiveBook;
 
 @interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UILabel *funFactsLabel;
-@property (strong, nonatomic) FactBook *factBook;
+@property (strong, nonatomic) VerbBook *verbBook;
 @property (strong, nonatomic) ColorWheel *colorWheel;
+@property (strong, nonatomic) AdjectiveBook *adjectiveBook;
 @property (weak, nonatomic) IBOutlet UIButton *funFactsButton;
+@property (weak, nonatomic) IBOutlet UILabel *verbLabel;
+@property (weak, nonatomic) IBOutlet UILabel *adjectiveLabel;
 
 @end
 
