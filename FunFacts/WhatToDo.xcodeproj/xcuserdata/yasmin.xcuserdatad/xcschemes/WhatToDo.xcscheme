@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CCF9E1B71C18C988008EE500"
                BuildableName = "JulklAPPen.app"
-               BlueprintName = "JulklAPPen"
-               ReferencedContainer = "container:JulklAPPen.xcodeproj">
+               BlueprintName = "WhatToDo"
+               ReferencedContainer = "container:WhatToDo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCF9E1B71C18C988008EE500"
             BuildableName = "JulklAPPen.app"
-            BlueprintName = "JulklAPPen"
-            ReferencedContainer = "container:JulklAPPen.xcodeproj">
+            BlueprintName = "WhatToDo"
+            ReferencedContainer = "container:WhatToDo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -57,8 +57,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCF9E1B71C18C988008EE500"
             BuildableName = "JulklAPPen.app"
-            BlueprintName = "JulklAPPen"
-            ReferencedContainer = "container:JulklAPPen.xcodeproj">
+            BlueprintName = "WhatToDo"
+            ReferencedContainer = "container:WhatToDo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -76,8 +76,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CCF9E1B71C18C988008EE500"
             BuildableName = "JulklAPPen.app"
-            BlueprintName = "JulklAPPen"
-            ReferencedContainer = "container:JulklAPPen.xcodeproj">
+            BlueprintName = "WhatToDo"
+            ReferencedContainer = "container:WhatToDo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

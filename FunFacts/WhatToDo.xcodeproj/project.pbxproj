@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CCF9E1B81C18C988008EE500 /* JulklAPPen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JulklAPPen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF9E1B81C18C988008EE500 /* WhatToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF9E1BC1C18C988008EE500 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCF9E1BE1C18C988008EE500 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CCF9E1BF1C18C988008EE500 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		CCF9E1B91C18C988008EE500 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CCF9E1B81C18C988008EE500 /* JulklAPPen.app */,
+				CCF9E1B81C18C988008EE500 /* WhatToDo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CCF9E1B71C18C988008EE500 /* JulklAPPen */ = {
+		CCF9E1B71C18C988008EE500 /* WhatToDo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCF9E1CF1C18C988008EE500 /* Build configuration list for PBXNativeTarget "JulklAPPen" */;
+			buildConfigurationList = CCF9E1CF1C18C988008EE500 /* Build configuration list for PBXNativeTarget "WhatToDo" */;
 			buildPhases = (
 				CCF9E1B41C18C988008EE500 /* Sources */,
 				CCF9E1B51C18C988008EE500 /* Frameworks */,
@@ -109,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = JulklAPPen;
+			name = WhatToDo;
 			productName = FunFacts;
-			productReference = CCF9E1B81C18C988008EE500 /* JulklAPPen.app */;
+			productReference = CCF9E1B81C18C988008EE500 /* WhatToDo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,10 +125,11 @@
 				TargetAttributes = {
 					CCF9E1B71C18C988008EE500 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = TTCJ6LRFPQ;
 					};
 				};
 			};
-			buildConfigurationList = CCF9E1B31C18C988008EE500 /* Build configuration list for PBXProject "JulklAPPen" */;
+			buildConfigurationList = CCF9E1B31C18C988008EE500 /* Build configuration list for PBXProject "WhatToDo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -141,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CCF9E1B71C18C988008EE500 /* JulklAPPen */,
+				CCF9E1B71C18C988008EE500 /* WhatToDo */,
 			);
 		};
 /* End PBXProject section */
@@ -279,10 +280,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = se.yasminlindholm.FunFacts;
-				PRODUCT_NAME = JulklAPPen;
+				PRODUCT_BUNDLE_IDENTIFIER = se.yasminlindholm.WhatToDo;
+				PRODUCT_NAME = WhatToDo;
 			};
 			name = Debug;
 		};
@@ -290,17 +292,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FunFacts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = se.yasminlindholm.FunFacts;
-				PRODUCT_NAME = JulklAPPen;
+				PRODUCT_BUNDLE_IDENTIFIER = se.yasminlindholm.WhatToDo;
+				PRODUCT_NAME = WhatToDo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CCF9E1B31C18C988008EE500 /* Build configuration list for PBXProject "JulklAPPen" */ = {
+		CCF9E1B31C18C988008EE500 /* Build configuration list for PBXProject "WhatToDo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCF9E1CD1C18C988008EE500 /* Debug */,
@@ -309,13 +312,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCF9E1CF1C18C988008EE500 /* Build configuration list for PBXNativeTarget "JulklAPPen" */ = {
+		CCF9E1CF1C18C988008EE500 /* Build configuration list for PBXNativeTarget "WhatToDo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCF9E1D01C18C988008EE500 /* Debug */,
 				CCF9E1D11C18C988008EE500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
