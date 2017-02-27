@@ -21,7 +21,7 @@
                        , @"fingerfärdighet"
                        , @"sorg"
                        , @"lycka"
-                       , @"skatt"
+                       , @"skratt"
                        , @"en kines"
                        , @"en skruvmejsel"
                        , @"en tomat!"
@@ -41,6 +41,11 @@
                        , @"hundögon"
                        , @"ans du skrattar"
                        , @"Torsten Flink"
+                       , @"en brylkräm"
+                       , @"en frisör"
+                       , @"Miancé"
+                       , @"Yasmins sköldpadda"
+
                        , nil];
     }
     return self;

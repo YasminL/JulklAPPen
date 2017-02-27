@@ -37,6 +37,16 @@
                   , @"byta kläder"
                   , @"köra arga leken"
                   , @"städa"
+                  , @"rensa toan"
+                  , @"betala räkningar"
+                  , @"örtbasta"
+                  , @"länsa kylskåpet"
+                  , @"koda en app"
+                  , @"äta tio semlor"
+                  , @"inspektera ett skrev"
+                  , @"göra ett träd"
+                  , @"laga Humpf"
+                  , @"putsa skor"
                   , nil];
     }
     return self;
